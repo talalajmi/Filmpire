@@ -1,15 +1,26 @@
-::-webkit-scrollbar{
-    width: 7px
+::-webkit-scrollbar {
+  width: 7px;
 }
 
-::-webkit-scrollbar-track{
-    background: #cfcfcf;
+::-webkit-scrollbar-track {
+  background: #cfcfcf;
 }
 
-::-webkit-scrollbar-thumb{
-    background: #a5a5a5;
+::-webkit-scrollbar-thumb {
+  background: #a5a5a5;
 }
 
-*{
-    text-decoration: none;
+* {
+  text-decoration: none;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+ {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
